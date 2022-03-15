@@ -1,5 +1,5 @@
 {
-  "name": "vue3-json-editor",
+  "name": "@riskconcile/vue3-json-editor",
   "version": "1.1.4",
   "description": "A json editor of vue",
   "main": "dist/vue3-json-editor.cjs.prod.js",
@@ -11,12 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaomede/vue3-json-editor.git"
+    "url": "git+https://github.com/RiskConcile/vue3-json-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/joaomede/vue3-json-editor/issues"
+    "url": "https://github.com/RiskConcile/vue3-json-editor/issues"
   },
-  "homepage": "https://github.com/joaomede/vue3-json-editor#readme",
+  "homepage": "https://github.com/RiskConcile/vue3-json-editor#readme",
   "author": "liuqi41",
   "keywords": [
     "vue-json-editor",
@@ -40,7 +40,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "rimraf dist && rollup --config rollup.config.js",
+    "build": "rollup --config rollup.config.js",
     "dev_vite": "vite",
     "build_vite": "vue-tsc --noEmit && vite build",
     "test:unit": "vue-cli-service test:unit",
